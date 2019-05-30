@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/rrr"
+    android:layout_height="match_parent"
+    tools:context=".Postjob">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="100dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post Job"
+            android:textSize="40dp"
+            />
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="Company ID" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="Company Name" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="Address" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="City" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="Email ID" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:text="Vaccancy of Job" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:text="Title" />
+
+
+        <EditText
+            android:id="@+id/rno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:ems="10"
+            android:hint="Enter the RollNo"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:ems="10"
+            android:hint="Enter the Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/db"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:hint="Enter Address"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/eid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:ems="10"
+            android:hint="Enter E-male ID"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/mno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:ems="10"
+            android:hint="Enter Vaccancy"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/cadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:ems="10"
+            android:hint="Enter Title"
+            android:inputType="textPersonName" />
+
+
+        <Spinner
+            android:id="@+id/clas"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:text="Skill" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="Enter Skill"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:text="Department" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_row="8"
+            android:layout_column="1" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="9"
+            android:layout_column="0"
+            android:text="Interview Time" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="9"
+            android:layout_column="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="Enter Interview Time"/>
+
+
+    </GridLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

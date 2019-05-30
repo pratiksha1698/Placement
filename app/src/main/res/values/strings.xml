@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">project of pratiksha</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="login1">Login</string>
+    <string name="not_register">Not Register?</string>
+    <string name="registerr">REGISTER</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="Apply">Apply</string>
+    <string name="register">Register</string>
+</resources>
